@@ -1,0 +1,213 @@
+body{
+    margin: 0 auto;
+    background-color: #2d1e29;
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+    }
+   
+ /*------------Start OF Nav Bar---------------*/
+    
+    .nav-bar{
+        height: 70px;
+        width: 100%;
+        background-color:#5f2136;
+        position:fixed;
+        top:0;
+        z-index: 1;
+    }
+    
+    .logo{
+        height:60px;
+        width:80px;
+        float:LEFT;
+        margin-top:-7px;
+    }
+    
+.nav-list{
+float:right;
+margin-right:20px;
+}
+
+.list-item{
+    list-style-type:none;
+    float:left;
+    margin-right:10px;
+    background-color:#b92440;
+    height:35px;
+    width:60px;
+    border:3px solid #1a001a;
+    padding-left:10px;
+    padding-top:10px:;
+    border-radius:20px;
+    }
+    
+    .list-item:hover {
+        background-color:white;
+    }
+    
+.anchor{
+    margin-top:8px;
+    margin-left:4px;
+    display:inline-block;
+}
+
+.anchor{
+    text-decoration:none;
+    color:Green;
+}
+
+.list-item a {
+    color:#660000;
+    text-decoration: none;
+}
+
+.anchor:hover{
+    color:#660000;
+}
+
+/*----------------------End of Nav Bar------------*/
+
+/*-----------------Start of Hero-------------------*/
+
+.hero{
+    background-image:url('../image/IMGHERO.jpg');
+    background-size: cover;
+    height:600px;
+    width:100%;
+    position:relative;
+    top:50px;
+    
+}
+
+.hero-background{
+    background-color:#FBFFB9;
+    position: absolute;
+    bottom: 150px;
+    left:34%;
+    border:3px solid #FBFFB9;
+    box-shadow: 8px 8px #EC7357;
+    border-radius:10px;
+    }
+
+.hero-text{
+    color:#754F44;
+    padding:10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+    height:600px;
+    width:100%;
+}
+
+
+.box{
+    height:550px;
+    width:45%;
+    border:3px solid #330000;
+    float:left;
+    margin:75px 25px 25px 25px;
+}
+
+.main-p{
+    text-align: justify;
+    padding: 25px;
+}
+
+footer{
+background-color:#000000;
+   height: 70px;
+   clear:both;
+    
+}
+
+.footer-col{
+   width:33%;
+   float:left;
+}
+
+.footer-buttons, .social, .copyright {
+    margin-top: 18px;
+    margin-left:170px;
+    display:block;
+    
+}
+
+.input{
+    height:30px;
+    width:170px;
+}
+.button{
+    height:30px;
+    width:50px;
+}
+
+.fab{
+    font-size:2em;
+    padding:10px;
+}
+
+.fa-facebook-square{
+    color:#231f20;
+}
+
+.fa-instagram{
+    color:#231F20;
+}
+
+/*****************START OF ABOUT CSSSS*****************************/
+
+
+.container{
+    height:700px;
+    width:100%;
+    margin-top:92px; 
+}
+
+.column{
+    height:650px;
+    width:30%;
+    border: 6px solid #330000;
+    float:left;
+    margin-left: 15px;
+}
+
+.col-img{
+    display:block;
+    margin:0 auto;
+    width:300px;
+}
+
+audio {
+    display: block;
+    margin:0 auto;
+    margin-top:30px;
+}
+
+/**********START OF CONTACT CSS*****************************/
+
+.contact-container{
+    width:100%;
+    height:900px;
+    margin-top:90px;
+    position:relative;
+}
+
+.contact-col{
+    width:48%;
+    border: 6px solid #330000;
+    position:relative;
+    margin-left:15px
+    
+}
+
+.map{
+    position:absolute;
+    left:0;
+    text-align:center;
+    padding:8px;
+}
+
+.form{
+    position: absolute;
+    left:50%;
+}
